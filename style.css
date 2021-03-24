@@ -1,0 +1,41 @@
+/*Style Sheet*/
+#form-container {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    border: 3px solid black;
+    font-family: Calibri;
+    background-color: #c7fff3;
+    font-size: 20px;
+}
+#heading {
+    text-align: center;
+}
+#hr1 {
+    width: 60%;
+}
+#form-body{
+    text-align: right;
+    justify-content: center;
+}
+#form-body input {
+    margin-left: 2%;
+    margin-right: 8%;
+    width: 60%;
+}
+#sub-but {
+    font-size: 20px;
+    width: 30%;
+    height: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: rgb(255, 253, 164);
+}
+table{
+    width: 100%;
+    opacity: 0%;
+}
+td{
+    text-align: center;
+    background-color: beige;
+}

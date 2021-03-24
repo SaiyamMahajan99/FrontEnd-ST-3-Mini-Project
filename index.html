@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sample Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="form-container">
+            <br>
+            <span id="heading">Details Form</span>
+            <hr id="hr1">
+            <br>
+            <form id="form-body">
+                <!-- Name -->
+                <label>Name: </label>
+                <input type="text" id="name" pattern="[a-zA-Z]{3,}" required>
+                <br><br>
+                <!-- Mobile -->
+                <label>Mob. No. : </label>
+                <input type="tel" id="mob" pattern="[0-9]{10}" required>
+                <br><br>
+                <!-- Email -->
+                <label>Email ID: </label>
+                <input type="email" id="email" required>
+                <br><br>  
+            </form>
+            <button id="sub-but" onclick="add()" >SUBMIT</button>
+            <hr>
+            <table>
+                <tr id="table-head">
+                    <td>Name</td>
+                    <td>Mob. No.</td>
+                    <td>Email ID</td>
+                    <td></td>
+                </tr>
+                <tbody id="form-details-table">
+
+                </tbody>
+            </table>
+        </div>
+
+        <script src="script/script.js"></script>
+    </body>
+</html> 
